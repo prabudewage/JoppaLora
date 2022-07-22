@@ -1,12 +1,18 @@
 # JoppaLora
 Analyzing LoRa and Central nodes data in Joppa city
-* LoRa-53 ==> latitude = 32.7160 & longitude = -96.7504
-* LoRa-54 ==> latitude = 32.7104 & longitude = -96.7472
+* LoRa-53: latitude = 32.7160 & longitude = -96.7504
+* LoRa-54: latitude = 32.7104 & longitude = -96.7472
 * Two LoRa sensors, Node-53 (North) and Node-54 (South) were deployed in Joppa city in 2022 April 16.
 
-### 1. 10min_average_dataframes
-* Average data per 10 min and make a single dataframe.
+### 1. 10min_avg_lora_df
+* Average two LoRa sensors data per 10 min and make two dataframes.
 
-### 2. vizualize_wind_data
+### 2. 10min_avg_central_df
+* Average Central Node data per 10 min and make a single dataframe.
+
+### 3. local_10min_avg_df
+* Convert all three dataFrames from UTC time to Local (Texas) time and save.
+
+### 4. vizualize_wind_data
 * Visualize wind data downloaded from ECMWF.
 * Visualize sensor locations on the same plot.
