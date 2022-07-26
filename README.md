@@ -10,8 +10,10 @@ Analyzing LoRa and Central nodes data in Joppa city
 ### 2. 10min_avg_central_df
 * Average Central Node data per 10 min and make a single dataframe.
 
-### 3. local_10min_avg_df
-* Convert all three dataFrames from UTC time to Local (Texas) time and save.
+### 3. local_10min_hourly_daily_avg_with_dayname_df
+* Convert all three dataFrames from UTC time to Local (Texas) time.
+* Average all three dataFrames per 10 min, hourly and daily.
+* Add day name for all three dataFrames and save
 
 ### 4. vizualize_wind_data
 * Visualize wind data downloaded from ECMWF.
