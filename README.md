@@ -26,6 +26,7 @@ Analyzing LoRa and Central nodes data in Joppa city
 * Plot each group data of a sensor on a scatter plot together. 
 * Get average of each group. 
 * Plot bar chart of averaged-PM2.5 vs day-name.
+* Add WHO PM2.5 guideline to the bar charts.
 
 ### 4. vizualize_wind_data
 * Visualize wind data downloaded from ECMWF.
