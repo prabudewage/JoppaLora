@@ -6,7 +6,7 @@ Analyzing LoRa and Central nodes data in Joppa city
 * Central Node: latitude = 32.7153 & longitude = -96.7479
 
 ### 1. UTC_AvgDF
-Raw data is in UTC time. 
+Raw data is in UTC time. Average data per 10 minutes and hourly. Save two dataFrames - 10 minutes and Hourly.
 ### 2. Local_AvgDF
 ### 3. Plots
 
